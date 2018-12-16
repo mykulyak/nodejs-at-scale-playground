@@ -1,0 +1,34 @@
+{
+  "name": "nodejs-at-scale-playground",
+  "version": "0.1.0",
+  "description": "Project for tweaking and testing techniques of scaling Node.js web apps",
+  "main": "index.js",
+  "scripts": {
+    "express-single": "node src/express-single.js",
+    "express-cluster": "node src/express-cluster.js",
+    "koa-single": "node src/koa-single.js",
+    "koa-cluster": "node src/koa-cluster.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mykulyak/nodejs-at-scale-playground.git"
+  },
+  "keywords": [
+    "Node.js",
+    "scaling",
+    "cluster",
+    "express.js"
+  ],
+  "author": "Andriy Mykulyak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mykulyak/nodejs-at-scale-playground/issues"
+  },
+  "homepage": "https://github.com/mykulyak/nodejs-at-scale-playground#readme",
+  "dependencies": {
+    "artillery": "^1.6.0-26",
+    "express": "^4.16.4",
+    "koa": "^2.6.2"
+  }
+}
